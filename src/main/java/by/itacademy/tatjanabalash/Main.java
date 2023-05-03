@@ -11,7 +11,7 @@ public class Main {
 
 //Assert/Then:
         if (actual != expected) {
-            System.out.println("Error");
+            System.out.println("Error: expected "+ expected + " actual: " + actual);
         }
     }
 }

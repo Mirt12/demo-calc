@@ -16,9 +16,9 @@ public class CalcTest {
     }
 
     @Test
-    public void testSubstract() {
-        int expected = -2;
-        int actual = Calc.subtract(3, 5);
+    public void testSubtract() {
+        int expected = 7;
+        int actual = Calc.subtract(12, 5);
         Assertions.assertEquals(expected, actual);
     }
 
@@ -28,4 +28,12 @@ public class CalcTest {
         int actual = Calc.multiply(3, 2);
         Assertions.assertEquals(expected, actual);
     }
+
+    @Test
+    public void testDivision(){
+        int expected = 5;
+        int actual = Calc.division(10, 2);
+        Assertions.assertEquals(expected, actual);
+    }
+
 }
